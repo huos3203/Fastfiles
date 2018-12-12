@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		84B945CB21C10F3100D187D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84B945CD21C10F3100D187D4 /* ios_fastfile.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ios_fastfile.rb; sourceTree = "<group>"; };
+		84B945CE21C10F3100D187D4 /* android_fastfile.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = android_fastfile.rb; sourceTree = "<group>"; };
+		84B945D021C10F3100D187D4 /* android_monkey.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = android_monkey.rb; sourceTree = "<group>"; };
+		84B945D121C10F3100D187D4 /* get_debug_app_path.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = get_debug_app_path.rb; sourceTree = "<group>"; };
+		84B945D221C10F3100D187D4 /* update_gradle_version.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = update_gradle_version.rb; sourceTree = "<group>"; };
+		84B945D321C10F3100D187D4 /* update_app_to_bugly.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = update_app_to_bugly.rb; sourceTree = "<group>"; };
+		84B945D421C10F3100D187D4 /* appium_execute_testcase.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = appium_execute_testcase.rb; sourceTree = "<group>"; };
+		84B945D521C10F3100D187D4 /* pod_install.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = pod_install.rb; sourceTree = "<group>"; };
+		84B945D621C10F3100D187D4 /* git_commit_all.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = git_commit_all.rb; sourceTree = "<group>"; };
+		84B945D721C10F3100D187D4 /* pod_repo_update.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = pod_repo_update.rb; sourceTree = "<group>"; };
+		84B945D821C10F3100D187D4 /* update_build_number.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = update_build_number.rb; sourceTree = "<group>"; };
+		84B945D921C10F3100D187D4 /* install_app_on_simulator.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = install_app_on_simulator.rb; sourceTree = "<group>"; };
+		84B945DA21C10F3100D187D4 /* upload_app_to_fir.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = upload_app_to_fir.rb; sourceTree = "<group>"; };
+		84B945DB21C10F3100D187D4 /* instruments_ui_automation.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = instruments_ui_automation.rb; sourceTree = "<group>"; };
+		84B945DC21C10F3100D187D4 /* git_push.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = git_push.rb; sourceTree = "<group>"; };
+		84B945DD21C10F3100D187D4 /* create_local_properties.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = create_local_properties.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		84B9457F21C10EF100D187D4 = {
+			isa = PBXGroup;
+			children = (
+				84B945CC21C10F3100D187D4 /* fastlane */,
+				84B945CB21C10F3100D187D4 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		84B945CC21C10F3100D187D4 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				84B945CD21C10F3100D187D4 /* ios_fastfile.rb */,
+				84B945CE21C10F3100D187D4 /* android_fastfile.rb */,
+				84B945CF21C10F3100D187D4 /* actions */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		84B945CF21C10F3100D187D4 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				84B945D021C10F3100D187D4 /* android_monkey.rb */,
+				84B945D121C10F3100D187D4 /* get_debug_app_path.rb */,
+				84B945D221C10F3100D187D4 /* update_gradle_version.rb */,
+				84B945D321C10F3100D187D4 /* update_app_to_bugly.rb */,
+				84B945D421C10F3100D187D4 /* appium_execute_testcase.rb */,
+				84B945D521C10F3100D187D4 /* pod_install.rb */,
+				84B945D621C10F3100D187D4 /* git_commit_all.rb */,
+				84B945D721C10F3100D187D4 /* pod_repo_update.rb */,
+				84B945D821C10F3100D187D4 /* update_build_number.rb */,
+				84B945D921C10F3100D187D4 /* install_app_on_simulator.rb */,
+				84B945DA21C10F3100D187D4 /* upload_app_to_fir.rb */,
+				84B945DB21C10F3100D187D4 /* instruments_ui_automation.rb */,
+				84B945DC21C10F3100D187D4 /* git_push.rb */,
+				84B945DD21C10F3100D187D4 /* create_local_properties.rb */,
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		84B9458021C10EF100D187D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 84B9458321C10EF100D187D4 /* Build configuration list for PBXProject "iFastlane" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B9457F21C10EF100D187D4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		84B9458421C10EF100D187D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		84B9458521C10EF100D187D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B9458321C10EF100D187D4 /* Build configuration list for PBXProject "iFastlane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B9458421C10EF100D187D4 /* Debug */,
+				84B9458521C10EF100D187D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B9458021C10EF100D187D4 /* Project object */;
+}
